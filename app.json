@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "csafe",
-    "slug": "csafe",
+    "name": "boilerplate-expo-redux-nativebase-maps",
+    "slug": "boilerplate-expo-redux-nativebase-maps",
     "platforms": [
       "ios",
       "android",
