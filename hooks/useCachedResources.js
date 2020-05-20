@@ -14,8 +14,9 @@ export default function useCachedResources() {
 
         // Load fonts
         await Font.loadAsync({
-          ...Ionicons.font,
-          'roboto-regular': require('../assets/fonts/Roboto-Regular.ttf'),
+          "Roboto": require('native-base/Fonts/Roboto.ttf'),
+          "Roboto_medium": require('native-base/Fonts/Roboto_medium.ttf'),
+          ...Ionicons.font
         });
       } catch (e) {
         // We might want to provide this error information to an error reporting service
