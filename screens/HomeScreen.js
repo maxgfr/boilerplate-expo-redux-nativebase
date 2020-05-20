@@ -19,7 +19,8 @@ export default function HomeScreen() {
 }
 
 function fetchMaps() {
-  fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=1500&keyword=cruise&key=AIzaSyAoeNlSgJ2kthVEBmeFQFPgkUs45xmCfog')
+  var api_key="xxx";
+  fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=1500&keyword=cruise&key='+api_key)
     .then((res) => {
       console.log(res)
     }).catch((err) => {
